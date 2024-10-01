@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        /* Default styles for all screen sizes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Media query for screens smaller than 768px (typically smartphones) */
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            /* Additional styles specific to smaller screens */
+        }
+
+        /* Media query for screens between 768px and 1024px (typically tablets) */
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+            .container {
+                max-width: 90%;
+            }
+            /* Additional styles specific to medium-sized screens */
+        }
+
+        /* Media query for screens larger than 1200px (typically desktops) */
+        @media screen and (min-width: 1200px) {
+            .container {
+                padding: 40px;
+            }
+            /* Additional styles specific to large screens */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Responsive Website</h1>
+        <p>This is a basic example of a responsive website using media queries.</p>
+    </div>
+</body>
+</html>

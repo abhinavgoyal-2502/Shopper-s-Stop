@@ -1,0 +1,383 @@
+#header {
+    width: 1505px;
+    height: 80px;
+    background: transparent;
+    /* border: 3px solid yellow; */
+    border-radius: 30px;
+    position: fixed;
+    /* margin-top: 10px; */
+    display: inline;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    z-index: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(BreezeSans-Light_20150728.ttf);
+}
+
+#header a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: myFirstFont;
+    /* padding-right: 25px; */
+}
+
+#header img {
+    height: 80px;
+    width: 200px;
+    padding-left: 50px;
+    float: left;
+    display: flex;
+    padding-right: 60px;
+}
+
+.header-text-container {
+    display: inline;
+    padding-top: 35px;
+    font-size: 45px;
+}
+
+.main {
+    width: 1505px;
+    /* border: 3px solid red; */
+    height: 631px;
+    padding-top: 95px;
+    font-family: myFirstFont;
+}
+
+.main img {
+    height: 631px;
+    width: 1503px;
+}
+
+.imgtext {
+    position: absolute;
+    bottom: 150px;
+    left: 950px;
+    right: 150px;
+    color: white;
+    font-size: 60px;
+}
+
+.headerdropdown {
+    width: 500px;
+    height: 300px;
+    /* border: 3px solid purple; */
+
+}
+
+.deals {
+    height: 900px;
+    width: 1505px;
+    /* border: 3px solid green; */
+    margin-top: 10px;
+    font-family: myFirstFont;
+}
+
+.dealscontainer {
+    width: 450px;
+    height: 350px;
+    /* border: 3px solid black; */
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.dealscontainer img {
+    padding-top: 10px;
+    height: 330px;
+    width: 250px;
+    padding-left: 10px;
+    float: left;
+    transition: all 0.3s ease-in-out
+}
+
+.dealscontainer-text {
+    height: 315px;
+    width: 150px;
+    /* border: 3px solid brown; */
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: x-large;
+    font-weight: 1000;
+}
+
+.dealscontainer-text p {
+    font-size: large;
+    font-weight: 600;
+}
+
+.dealscontainer img:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+}
+
+.dealscontainer button {
+    font-family: myFirstFont;
+    font-weight: 600;
+    font-size: medium;
+    background-color: transparent;
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+    transition: all 0.3s ease-in-out
+}
+
+.dealscontainer button:hover {
+    background-color: rgb(128, 127, 127);
+    color: white;
+    transition-duration: 0.2s;
+}
+
+.mobile {
+    height: 710px;
+    width: 1505px;
+    /* border: 3px solid grey; */
+    margin-top: 10px;
+    font-family: myFirstFont;
+    font-weight: 1000;
+    font-size: xx-large;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mobile-text {
+    height: 100px;
+    width: 1505px;
+    /* border: 3px solid grey; */
+    margin-top: 10px;
+    font-family: myFirstFont;
+    font-weight: 1000;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.mobile-box {
+    height: 690px;
+    width: 690px;
+    /* border: 3px solid blue; */
+    margin-left: 20px;
+    /* margin-top: 40px; */
+    /* flex: left; */
+    /* display: inline-block; */
+}
+.mobile-box img{
+    transition: all 0.3s ease-in-out;
+}
+.mobile-box img:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+}
+.leftdiv {
+    height: 700px;
+    width: 720px;
+    /* border: 3px solid orange; */
+}
+
+.rightdiv {
+    height: 700px;
+    width: 770px;
+    /* border: 3px solid orange; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mobile-box2 {
+    height: 330px;
+    width: 350px;
+    /* border: 3px solid maroon; */
+    background-color: rgb(243, 243, 243);
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-top: 10px;
+    /* display: inline-block; */
+    margin-top: 0px;
+    border-radius: 10px;
+}
+.mobile-box2 img{
+    transition: all 0.3s ease-in-out;
+}
+.mobile-box2 img:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+}
+
+.mobilecaption {
+    position: relative;
+    bottom: 200px;
+    left: 20px;
+    right: 750px;
+    color: black;
+    font-size: 35px;
+}
+
+.mobilecaption button {
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
+    font-size: x-large;
+    font-family: myFirstFont;
+    font-weight: bolder;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out
+}
+
+.mobilecaption button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 0.2s;
+}
+.mobilecaption p{
+    font-size: large;
+    margin-top: 30px;
+}
+.mobilecaption2 {
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    /* right: 0px; */
+    color: black;
+    font-size: 25px;
+}
+
+.mobilecaption2 button {
+    height: 25px;
+    width: 100px;
+    margin-top: 0px;
+    font-size: medium;
+    font-family: myFirstFont;
+    font-weight: bolder;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out
+}
+
+.mobilecaption2 button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 0.2s;
+}
+.mobilecaption2 p{
+    font-size: large;
+    margin-top: 30px;
+}
+.tv{
+    width: 1503px;
+    height: 783px;
+    /* border: 3px solid rgb(0, 247, 255); */
+    margin-top: 10px;
+    font-family: myFirstFont;
+}
+.tvpostercaption {
+    position: relative;
+    bottom: 300px;
+    padding-left: 100px;
+    /* left: 100px; */
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.imgdiv{
+    height: 350px;
+    width: 1450px;
+    /* border: 3px solid chartreuse; */
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.tvpostercaption button {
+    height: 40px;
+    width: 140px;
+    margin-top: 20px;
+    font-size: large;
+    font-family: myFirstFont;
+    font-weight: bolder;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out
+}
+.tvpostercaption button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 0.2s;
+}
+#scroll-to-top {
+    background-color: #333;
+    border: none;
+    border-radius: 80px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#scroll-to-top:hover {
+    background-color: #666;
+}
+
+#scroll-to-top.show {
+    opacity: 1;
+}
+.tv-box{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(243, 243, 243);
+    /* border: 3px solid darkcyan; */
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.tv-box-caption{
+    width: 345px;
+    height: 110px;
+    /* border: 3px solid green; */
+    font-family: myFirstFont;
+    font-size: larger;
+    text-align: center;
+    font-weight: bolder;
+}
+.tv-box img{
+    height: 280px;
+    width: 340px;
+    transition: all 0.3s ease-in-out
+}
+.tv-box button{
+    height: 40px;
+    width: 120px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out
+}
+.tv-box button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition-duration: 0.2s;
+}
+.tv-box img:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1, 1.1);
+    transition-duration: 0.3s;
+}
